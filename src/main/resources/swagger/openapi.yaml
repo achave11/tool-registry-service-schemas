@@ -1,5 +1,5 @@
 openapi: 3.0.0
-servers:$
+servers:
   - url: https://dos-gdc.ucsc-cgp-dev.org/ga4gh/dos/v1
 info:
   title: GA4GH Tool Discovery API
