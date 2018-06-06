@@ -1,6 +1,4 @@
 openapi: 3.0.0
-servers:
-  - url: https://dos-gdc.ucsc-cgp-dev.org/ga4gh/dos/v1
 info:
   title: GA4GH Tool Discovery API
   description: >-
@@ -570,7 +568,7 @@ externalDocs:
   description: Description of GA4GH Tool Registry (Exchange) Schema
   url: 'https://github.com/ga4gh/tool-registry-schemas'
 servers:
-  - url: /api/ga4gh/v2
+  - url: https://dockstore.org:8443/api/ga4gh/v2
 components:
   parameters:
     limit:
