@@ -1,4 +1,6 @@
 openapi: 3.0.0
+servers:$
+  - url: https://dos-gdc.ucsc-cgp-dev.org/ga4gh/dos/v1
 info:
   title: GA4GH Tool Discovery API
   description: >-
@@ -24,8 +26,6 @@ info:
   license:
     name: ' GNU Lesser General Public License'
     url: 'https://www.gnu.org/licenses/lgpl-3.0.en.html'
-servers:
-  - url: https://dockstore.org:8443/api/ga4gh/v2
 tags:
   - name: NIHdatacommons
   - name: GA4GH
