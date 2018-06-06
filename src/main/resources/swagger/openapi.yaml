@@ -26,7 +26,6 @@ info:
     url: 'https://www.gnu.org/licenses/lgpl-3.0.en.html'
 servers:
   - url: https://dockstore.org:8443/api/ga4gh/v2
-    description: Production server for dockstore
 tags:
   - name: NIHdatacommons
   - name: GA4GH
