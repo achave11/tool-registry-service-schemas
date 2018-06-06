@@ -26,6 +26,7 @@ info:
     url: 'https://www.gnu.org/licenses/lgpl-3.0.en.html'
 tags:
   - name: NIHdatacommons
+    description:  A shared virtual space where scientists can work with the digital objects of biomedical research such as data and analytical tools.
   - name: GA4GH
     description: A set of resources proposed as a common standard for tool repositories
 paths:
