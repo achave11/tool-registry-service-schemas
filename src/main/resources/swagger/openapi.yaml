@@ -15,7 +15,19 @@ info:
     workflows, and Nextflow workflows that reference containers in formats such
     as Docker or Singularity. 
   version: 2.0.0
+  termsOfService: "https://www.ga4gh.org/policies/termsandconditions.html"
+  title: Dockstore Tool Registry Service
+  contact:
+    name: Dockstore@ga4gh
+    url: 'https://github.com/ga4gh/dockstore'
+    email: theglobalalliance@genomicsandhealth.org
+  license:
+    name: ' GNU Lesser General Public License'
+    url: 'https://www.gnu.org/licenses/lgpl-3.0.en.html'
+servers:
+  - url: https://dockstore.org:8443/api/ga4gh/v2
 tags:
+  - name: NIHdatacommons
   - name: GA4GH
     description: A set of resources proposed as a common standard for tool repositories
 paths:
